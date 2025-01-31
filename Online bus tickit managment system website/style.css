@@ -1,0 +1,154 @@
+*{margin: 0;padding: 0}
+
+body{
+    background-image: url(tour4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 200px auto;
+    background-color: #008000;
+    border: 5px solid #0000FF;
+}
+
+.header{
+    background-color: #3498DB;
+    padding: 50px;
+    border-bottom: 5px solid #76448A;
+}
+
+.ticket img{
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+
+.enjoy img{
+    width: 250px;
+    height: 150px;
+}
+
+
+.nav{
+    background-color: #0000FF;
+    height: 38px;
+    border-bottom: 5px solid #9B7807;
+    border-left: 5px solid #9B7807;
+    border-right: 5px solid #9B7807; 
+}
+
+.nav ul{
+    background-color: #000000;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav ul li{
+    float: left;
+    border-right: 1px solid #9B7807;
+}
+
+.nav ul li:last-child{
+    border: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 20px; 
+}
+
+.nav ul li a:hover{
+    color: red;
+}
+.contact .name{
+    height:100px;
+    width:350px;
+    margin-left: 275px;
+    font-size: 20px;   
+}
+.contant {
+    padding: 5px;
+    width: 470px;
+    height: 200px;
+    border: 2px solid GREEN;
+    background-color: #EE7F7F;
+    text-align: center;
+    float: right;
+}
+
+.sidebar{
+    
+    width:470px;
+    height: 210px;
+    border: 2px solid GREEN;
+    background-color: #EE7F7F;
+}
+
+.sidebar p{
+    margin: 15px;
+}
+
+.login{
+    padding: 75px;
+    width: 300px;
+    height: 90px;
+    background-color: aquamarine;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.registration{
+    padding: 45px;
+    width: 300px;
+    height: 180px;
+    background-color: aquamarine;
+    margin-left: 300px;
+    text-align: center;
+}
+
+#confirm{
+    width: 350px;
+    height: 100px;
+    background-color: aquamarine;
+    margin-left: 300px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.table{
+    margin-left: 220px;
+}
+
+.table tr th{
+    background-color: aquamarine;
+}
+
+.table tr{
+    text-align: center;
+}
+
+.footer{
+    background-color: #8D7C45;
+    width: 960px;
+    height: 100px;
+}
+
+#confirmlog{
+    width: 350px;
+    height: 100px;
+    background-color: aquamarine;
+    margin-left: 300px;
+    font-size: 20px;
+    padding: 35px 35px;
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    font-size: 20px;
+}
